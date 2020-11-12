@@ -1,0 +1,30 @@
+@import "variables.scss";
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: $bgColor;
+	font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.clock {
+	min-width: 300px;
+	color: $mainColor;
+	font-size: 48px;
+	text-shadow: 0 0 5px $mainColor, 0 0 10px $mainColor, 0 0 20px $mainColor, 0 0 0.5em $mainColor, 0 0 1em $mainColor;
+	&__time {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__date {
+		font-size: 68px;
+		margin-top: -10px;
+	}
+}

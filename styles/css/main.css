@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.clock {
+  min-width: 300px;
+  color: #FFFF00;
+  font-size: 48px;
+  text-shadow: 0 0 5px #FFFF00, 0 0 10px #FFFF00, 0 0 20px #FFFF00, 0 0 0.5em #FFFF00, 0 0 1em #FFFF00;
+}
+.clock__time {
+  display: flex;
+  justify-content: space-between;
+}
+.clock__date {
+  font-size: 68px;
+  margin-top: -10px;
+}
